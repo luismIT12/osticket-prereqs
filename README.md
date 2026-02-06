@@ -2,54 +2,71 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+# osTicket Help Desk Ticketing System Deployment in Microsoft Azure
 
+## Project Summary
 
-<h2>Video Demonstration</h2>
+This project is a hands-on walkthrough based on the CourseCareers IT Support curriculum. It demonstrates how to deploy the osTicket help desk ticketing system inside a Microsoft Azure virtual machine. The lab simulates a real-world IT support environment where users submit tickets and help desk agents manage and resolve those tickets.
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+This project was completed to demonstrate practical help desk, cloud infrastructure, and troubleshooting skills commonly required for entry-level IT support roles.
 
-<h2>Environments and Technologies Used</h2>
+### Languages Used
+- PowerShell
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+### Environments Used
+- Microsoft Azure
+- Windows 10
+
+### Technologies / Applications / Services Used
+- osTicket
+- Microsoft Azure Virtual Machines
 - Internet Information Services (IIS)
+- PHP
+- MySQL
 
-<h2>Operating Systems Used </h2>
+---
 
-- Windows 10</b> (21H2)
+## Media
 
-<h2>List of Prerequisites</h2>
+Screenshots included in this project demonstrate the following:
+- Azure virtual machine creation
+- Windows Server login
+- IIS installation
+- PHP and MySQL configuration
+- osTicket installation page
+- osTicket admin dashboard
+- Ticket submission
+- Ticket resolution
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+---
 
-<h2>Installation Steps</h2>
+## Demonstration
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+### Step 1: Azure Virtual Machine Setup
+- Created a Windows Server 2019 virtual machine in Microsoft Azure
+- Configured networking and remote desktop access
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+### Step 2: osTicket Prerequisites Installation
+- Installed Internet Information Services (IIS)
+- Installed and configured PHP
+- Installed MySQL database server
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+### Step 3: osTicket Installation
+- Downloaded and installed osTicket
+- Completed the web-based installation process
+- Connected osTicket to the MySQL database
+
+### Step 4: Help Desk Ticket Workflow
+- Created departments and help desk agents
+- Submitted a test support ticket
+- Assigned and resolved the ticket using the osTicket admin panel
+
+---
+
+## Skills Demonstrated
+- Help desk ticketing systems
+- Cloud-based infrastructure management
+- Web application installation
+- IT documentation and troubleshooting
+
 <br />
