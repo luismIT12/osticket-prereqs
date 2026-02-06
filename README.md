@@ -39,7 +39,6 @@ This project was completed to demonstrate practical help desk, cloud infrastruct
 
 
 ### Step 2: osTicket Prerequisites Installation
-- Installed Internet Information Services (IIS)
 - Installed and configured PHP
 - Installed MySQL database server
 
