@@ -35,6 +35,9 @@ This project was completed to demonstrate practical help desk, cloud infrastruct
 
 - Configured networking and remote desktop access
 
+- <img width="1367" height="639" alt="image" src="https://github.com/user-attachments/assets/cc34d8b7-e484-4c57-a623-0f4b37bf49fb" />
+
+
 ### Step 2: osTicket Prerequisites Installation
 - Installed Internet Information Services (IIS)
 - Installed and configured PHP
