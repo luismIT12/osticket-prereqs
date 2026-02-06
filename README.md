@@ -6,7 +6,7 @@
 
 ## Project Summary
 
-This project is a hands-on walkthrough based on the CourseCareers IT Support curriculum. It demonstrates how to deploy the osTicket help desk ticketing system inside a Microsoft Azure virtual machine. The lab simulates a real-world IT support environment where users submit tickets and help desk agents manage and resolve those tickets.
+This project is a hands-on walkthrough based on IT Support curriculum. It demonstrates how to deploy the osTicket help desk ticketing system inside a Microsoft Azure virtual machine. The lab simulates a real-world IT support environment where users submit tickets and help desk agents manage and resolve those tickets.
 
 This project was completed to demonstrate practical help desk, cloud infrastructure, and troubleshooting skills commonly required for entry-level IT support roles.
 
@@ -26,19 +26,6 @@ This project was completed to demonstrate practical help desk, cloud infrastruct
 
 ---
 
-## Media
-
-Screenshots included in this project demonstrate the following:
-- Azure virtual machine creation
-- Windows Server login
-- IIS installation
-- PHP and MySQL configuration
-- osTicket installation page
-- osTicket admin dashboard
-- Ticket submission
-- Ticket resolution
-
----
 
 ## Demonstration
 
