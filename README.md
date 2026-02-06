@@ -31,6 +31,8 @@ This project was completed to demonstrate practical help desk, cloud infrastruct
 
 ### Step 1: Azure Virtual Machine Setup
 - Created a Windows virtual machine in Microsoft Azure
+<img width="939" height="362" alt="image" src="https://github.com/user-attachments/assets/40fe924c-5576-43cf-a72f-6c0e2c7c8bde" />
+
 - Configured networking and remote desktop access
 
 ### Step 2: osTicket Prerequisites Installation
