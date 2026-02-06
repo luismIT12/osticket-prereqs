@@ -44,6 +44,12 @@ This project was completed to demonstrate practical help desk, cloud infrastruct
   <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d1a0b4d8-782a-4bc9-8ad6-5812e571d5aa" />
 
 - Installed and configured PHP
+
+ <img width="500" height="399" alt="image" src="https://github.com/user-attachments/assets/9a94b4f1-eb5d-4c33-8cb0-7c5357008211" />
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/0272e3ba-799f-4f96-93ee-2b62b39afb98" />
+
+
 - Installed MySQL database server
 
 ### Step 3: osTicket Installation
