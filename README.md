@@ -31,11 +31,11 @@ This project was completed to demonstrate practical help desk, cloud infrastruct
 
 ### Step 1: Azure Virtual Machine Setup
 - Created a Windows virtual machine in Microsoft Azure
-<img width="939" height="362" alt="image" src="https://github.com/user-attachments/assets/40fe924c-5576-43cf-a72f-6c0e2c7c8bde" />
+<img width="600" height="362" alt="image" src="https://github.com/user-attachments/assets/40fe924c-5576-43cf-a72f-6c0e2c7c8bde" />
 
 - Configured networking and remote desktop access
 
-- <img width="1367" height="639" alt="image" src="https://github.com/user-attachments/assets/cc34d8b7-e484-4c57-a623-0f4b37bf49fb" />
+- <img width="700" height="639" alt="image" src="https://github.com/user-attachments/assets/cc34d8b7-e484-4c57-a623-0f4b37bf49fb" />
 
 
 ### Step 2: osTicket Prerequisites Installation
@@ -52,8 +52,14 @@ This project was completed to demonstrate practical help desk, cloud infrastruct
 
 - Installed MySQL database server
 
+- <img width="483" height="391" alt="image" src="https://github.com/user-attachments/assets/d6eef78d-65fd-4b73-afed-587e05cccb71" />
+
+
 ### Step 3: osTicket Installation
 - Downloaded and installed osTicket
+
+- <img width="500" height="510" alt="image" src="https://github.com/user-attachments/assets/01154c11-cadb-4126-86ed-b29d71aaa453" />
+
 - Completed the web-based installation process
 - Connected osTicket to the MySQL database
 
