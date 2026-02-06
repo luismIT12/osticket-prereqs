@@ -30,7 +30,7 @@ This project was completed to demonstrate practical help desk, cloud infrastruct
 ## Demonstration
 
 ### Step 1: Azure Virtual Machine Setup
-- Created a Windows Server 2019 virtual machine in Microsoft Azure
+- Created a Windows virtual machine in Microsoft Azure
 - Configured networking and remote desktop access
 
 ### Step 2: osTicket Prerequisites Installation
