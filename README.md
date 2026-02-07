@@ -52,21 +52,38 @@ This project was completed to demonstrate practical help desk, cloud infrastruct
 
 - Installed MySQL database server
 
-- <img width="483" height="391" alt="image" src="https://github.com/user-attachments/assets/d6eef78d-65fd-4b73-afed-587e05cccb71" />
+ <img width="483" height="391" alt="image" src="https://github.com/user-attachments/assets/d6eef78d-65fd-4b73-afed-587e05cccb71" />
 
 
 ### Step 3: osTicket Installation
 - Downloaded and installed osTicket
 
-- <img width="500" height="510" alt="image" src="https://github.com/user-attachments/assets/01154c11-cadb-4126-86ed-b29d71aaa453" />
+ <img width="500" height="510" alt="image" src="https://github.com/user-attachments/assets/01154c11-cadb-4126-86ed-b29d71aaa453" />
 
 - Completed the web-based installation process
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a6dd7fb9-d922-4c55-a03d-2912cb2277dd" />
+
 - Connected osTicket to the MySQL database
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6f74267a-8923-41c3-9025-a38f2ba49c8b" />
+
 
 ### Step 4: Help Desk Ticket Workflow
 - Created departments and help desk agents
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/f43487c5-36aa-4f70-b393-3b4b68aad68e" />
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/edf11106-5407-476a-9903-379803b49ecb" />
+
+
 - Submitted a test support ticket
+
+  <img width="500" height="502" alt="image" src="https://github.com/user-attachments/assets/960475d6-7638-4d7a-b108-6fef6b9f9437" />
+
 - Assigned and resolved the ticket using the osTicket admin panel
+
+  <img width="500" height="318" alt="image" src="https://github.com/user-attachments/assets/454fabcc-5b2e-45c2-97e5-a6695b07f309" />
+
 
 ---
 
