@@ -87,10 +87,5 @@ This project was completed to demonstrate practical help desk, cloud infrastruct
 
 ---
 
-## Skills Demonstrated
-- Help desk ticketing systems
-- Cloud-based infrastructure management
-- Web application installation
-- IT documentation and troubleshooting
 
 <br />
