@@ -44,21 +44,71 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bb9159f3-b917-49f1-9bdc-1a5f43cd0822" />
 
 
-### Step 1: Azure Virtual Machine Setup
-- Created a Windows virtual machine in Microsoft Azure
-<img width="600" height="362" alt="image" src="https://github.com/user-attachments/assets/40fe924c-5576-43cf-a72f-6c0e2c7c8bde" />
+### Step 2: Azure Virtual Machine Setup
+-- Next we create our Virtual machine for the Osticket, we search on top for virtual machine :
 
-- Configured networking and remote desktop access
+  <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f8b3402b-4cd9-4ebc-b738-969198b4863d" />
 
-- <img width="700" height="639" alt="image" src="https://github.com/user-attachments/assets/cc34d8b7-e484-4c57-a623-0f4b37bf49fb" />
+- Once it's been selected, we click create on top left
+   - Subscription : you select your own base on account
+  - Resource group : click create a new one name it (EX : Osticket)
+  - virtual name : create one base on your choice (ex: OsticketVM)
+  - Region : select your region
+  - image: select windows 2021 enterpise 
+  - zone : Zone 1
+  - size : at least 2 vcpu!
+  - Create a user name & password for VM
+  - click Next till we get to network section
+  -   Virtual network : one is going to get created
+  -   subnet : defualt 
+  - we click create !
+ 
+  <img width="520" height="546" alt="image" src="https://github.com/user-attachments/assets/42362bf8-7ad7-401d-ae93-3107bb9166e6" />
 
 
-### Step 2: osTicket Prerequisites Installation
-- enable IIS with CGI
+  <img width="515" height="500" alt="image" src="https://github.com/user-attachments/assets/e7d53b38-70c4-49fd-b66c-afcdadae3244" />
 
-  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d1a0b4d8-782a-4bc9-8ad6-5812e571d5aa" />
 
-- Installed and configured PHP
+
+### Step 3: osTicket Prerequisites Installation
+- Log in to the VM we created (Osticket)
+  
+  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/9f31f597-91e5-430b-a833-52931573cf19" />
+
+- Once logged in open up a web browser in the VM download this ( https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) installtion package
+
+  <img width="600" height="412" alt="image" src="https://github.com/user-attachments/assets/703f0e3f-8acc-4276-83ee-48fd105a4f00" />
+
+- Once the download is complete, click on the download folder, right click it and "extact all "
+
+  <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/3ef275e8-72e9-4d8a-b76a-7257265230f1" />
+
+- Next were going to Install / Enable IIS in Windows WITH CGI
+    - Click start, search for control panel, click on programs, click on turn on/off windows features
+ 
+<img width="600" height="443" alt="image" src="https://github.com/user-attachments/assets/fe3fb500-2256-49fd-904a-7012e99b5ea2" />
+
+- Next we select " Internet Infomation services --> world wide web --> application developer services --> check box CGI
+
+<img width="500" height="433" alt="image" src="https://github.com/user-attachments/assets/ce61bd7b-0e21-4658-a23c-c633153e16b2" />
+
+
+- Click ok then it should start installing CGI
+
+  <img width="600" height="450" alt="image" src="https://github.com/user-attachments/assets/d1310950-28e0-46b6-955f-1085cb739b91" />
+
+
+- Next open From the “osTicket-Installation-Files” folder and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi), Just keep click next till fully installed
+
+  <img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/55443a01-0bd6-4c66-af0e-50d25d2614df" />
+  
+
+- Next From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+  
+  
+
+
 
  <img width="500" height="399" alt="image" src="https://github.com/user-attachments/assets/9a94b4f1-eb5d-4c33-8cb0-7c5357008211" />
 
@@ -70,7 +120,7 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
  <img width="483" height="391" alt="image" src="https://github.com/user-attachments/assets/d6eef78d-65fd-4b73-afed-587e05cccb71" />
 
 
-### Step 3: osTicket Installation
+### Step 4: osTicket Installation
 - Downloaded and installed osTicket
 
  <img width="500" height="510" alt="image" src="https://github.com/user-attachments/assets/01154c11-cadb-4126-86ed-b29d71aaa453" />
@@ -84,7 +134,7 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6f74267a-8923-41c3-9025-a38f2ba49c8b" />
 
 
-### Step 4: Help Desk Ticket Workflow
+### Step 5: Help Desk Ticket Workflow
 - Created departments and help desk agents
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/f43487c5-36aa-4f70-b393-3b4b68aad68e" />
 
