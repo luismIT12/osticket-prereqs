@@ -2,13 +2,12 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-# osTicket Help Desk Ticketing System Deployment in Microsoft Azure
+# Deployment and Configuration of osTicket Help Desk System in Microsoft Azure
 
 ## Project Summary
 
-This project is a hands-on walkthrough based on IT Support curriculum. It demonstrates how to deploy the osTicket help desk ticketing system inside a Microsoft Azure virtual machine. The lab simulates a real-world IT support environment where users submit tickets and help desk agents manage and resolve those tickets.
+This project involved deploying the open-source osTicket Help Desk Ticketing System within a Microsoft Azure virtual machine environment. The objective was to configure the required server prerequisites and successfully install the application to simulate a functional enterprise helpdesk platform
 
-This project was completed to demonstrate practical help desk, cloud infrastructure, and troubleshooting skills commonly required for entry-level IT support roles.
 
 ### Languages Used
 - PowerShell
