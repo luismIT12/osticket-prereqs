@@ -233,21 +233,6 @@ Create a new database Name it  “osTicket”
 
 
 
-### Step 5: Help Desk Ticket Workflow
-- Created departments and help desk agents
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/f43487c5-36aa-4f70-b393-3b4b68aad68e" />
-
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/edf11106-5407-476a-9903-379803b49ecb" />
-
-
-- Submitted a test support ticket
-
-  <img width="500" height="502" alt="image" src="https://github.com/user-attachments/assets/960475d6-7638-4d7a-b108-6fef6b9f9437" />
-
-- Assigned and resolved the ticket using the osTicket admin panel
-
-  <img width="500" height="318" alt="image" src="https://github.com/user-attachments/assets/454fabcc-5b2e-45c2-97e5-a6695b07f309" />
-
 
 ---
 
