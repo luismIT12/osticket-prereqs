@@ -166,26 +166,71 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
   <img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/ca3f8f62-8741-4e5b-9d95-e9cd82285b48" />
 
 
+- Next Go back to IIS, to enable some exenstions got to --> sites -> Default -> osTicketDouble-click PHP Manager --> Click “Enable or disable an extension”
+-->Enable: php_imap.dll
+-->Enable: php_intl.dll
+-->Enable: php_opcache.dll
+ the  Refresh the osTicket site in your browser, observe the changes
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/d0ff7f18-20c5-4e76-9f45-66cc2ac7e56b" />
 
 
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/1ff72bdc-efa1-4ce3-a46d-a431d178acd5" />
 
 
+- Next Rename: ost-config.php From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php --> To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/ed29f29d-b0bc-4ceb-9e04-a4e5d2a0c74a" />
+
+- Next Assign Permissions: ost-config.php, right click then select properties ---> security --> advance
+Disable inheritance -> Remove All ---> Add --> princpal  -> type in Everyone ->  All
+
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/68aac063-4a72-4105-aa49-cbb60533ab79" />
+
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/b8e78b10-7da7-4423-8e69-eaee66f1acec" />
+
+
+- Next we  Continue Setting up osTicket in the browser (click Continue) --> finish setting up default infomation on Admin user
   
 
+  <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/690d3749-3e01-4c5e-a167-2411497bf419" />
+
+
+- From the “osTicket-Installation-Files” folder, install HeidiSQL. Open Heidi SQL --> bottom left corner --> Click new --> user : root/ Password: root
+Connect to the session
+Create a new database Name it  “osTicket”
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/6693636f-13d7-479c-84fd-88647a26df4b" />
+
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/e58a64d7-1e30-4128-8941-436880e82f78" />
+
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/4c5425ba-3e86-4269-8fbb-b4e2a71b26bf" />
+
+
+- Next we Continue Setting up osTicket in the browser --> MySQL Database: osTicket --> MySQL Username: root --> MySQL Password: root
+  Next Click “Install Now!”
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/be95120d-2ea1-4535-bf3b-24c0b19cbc0c" />
+
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/9fdf2d14-a2f9-4d26-9721-4a8dba454932" />
 
 
 
+- We finally installed it, next we can click on  http://localhost/osTicket/scp/login.php, should take us to link to login for admin
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/978fd255-f96f-42a9-a058-267d49f72200" />
 
 
+- Once you put your username and password, you should be able to log in
 
+  <img width="600" height="480" alt="image" src="https://github.com/user-attachments/assets/85beb8dd-9d07-4a02-87cf-8f682c139f37" />
 
-- Completed the web-based installation process
-
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a6dd7fb9-d922-4c55-a03d-2912cb2277dd" />
-
-- Connected osTicket to the MySQL database
-
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6f74267a-8923-41c3-9025-a38f2ba49c8b" />
 
 
 ### Step 5: Help Desk Ticket Workflow
