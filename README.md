@@ -71,7 +71,7 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 
 
 ### Step 3: osTicket Prerequisites Installation
-- Log in to the VM we created (Osticket)
+- Log in to VM the download apps & files required
   
   <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/9f31f597-91e5-430b-a833-52931573cf19" />
 
@@ -103,27 +103,81 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
   <img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/55443a01-0bd6-4c66-af0e-50d25d2614df" />
   
 
-- Next From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
+- Similarily From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi) click install , then finish to complete installtion
 
+  <img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/49e25c51-d01d-44bd-8f18-1250456119d5" />
+
+- Next we open up file exploxer , then go to our windows(C) drive, Right click inside and Create the directory and name it (PHP)
   
-  
+  <img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/0c584f72-9ac3-4216-b4a9-7ffbe7316057" />
+
+- Next From the “osTicket-Installation-Files” folder, we extract PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the our Created PHP folder
+
+  <img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/30e46bf8-00c0-4227-957f-e434b487e729" />
+
+- Next From the “osTicket-Installation-Files” folder, double click VC_redist.x86.exe., then click install
+
+  <img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/e62baf42-f325-4c4c-aa2d-b0ad50a337e0" />
 
 
-
- <img width="500" height="399" alt="image" src="https://github.com/user-attachments/assets/9a94b4f1-eb5d-4c33-8cb0-7c5357008211" />
-
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/0272e3ba-799f-4f96-93ee-2b62b39afb98" />
+- Next From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Keep clicking next then we select
+Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration -> Create a User name & password Username you won't forget (EX: Username: root , Passowrd: root)
 
 
-- Installed MySQL database server
+<img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/1e6518c2-0a31-41a7-a9d8-80b70621f5cc" />
 
- <img width="483" height="391" alt="image" src="https://github.com/user-attachments/assets/d6eef78d-65fd-4b73-afed-587e05cccb71" />
+
+<img width="600" height="385" alt="image" src="https://github.com/user-attachments/assets/2a77cee7-8e6f-4649-b090-45dad048adb3" />
+
 
 
 ### Step 4: osTicket Installation
-- Downloaded and installed osTicket
+- The final Steps of launching Osticket
+  - We're going to search IIS and open as adminstaor
 
- <img width="500" height="510" alt="image" src="https://github.com/user-attachments/assets/01154c11-cadb-4126-86ed-b29d71aaa453" />
+  <img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/b0cb07d5-657e-41ae-8031-e3acbab7a5d2" />
+
+- Next Register PHP from within IIS (PHP Manager)  Click On PHP manager --> select Register New PHP Version --> click on 3 dots ... then find our PHP folder -> find php.cgi and click open, then click ok
+
+<img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/81d0e155-a65d-4ccb-9f34-253e7bbdce18" />
+
+- Next restart  IIS, top right
+
+  <img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/899d92f6-aa7c-4ce5-b807-6e921128bd27" />
+
+- Next we Install osTicket v1.15.8 From the “osTicket-Installation-Files” folder, right click and select extract from  “osTicket-v1.15.8.zip” and next we copy the “upload” folder into “c:\inetpub\wwwroot”
+Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+
+<img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/4dd4462f-733c-4c18-88df-1c8aa3e39492" />
+
+
+<img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/1e8846d5-be17-4401-b24a-20f8cfd00ac3" />
+
+
+<img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/4a379b16-ca78-409e-b756-7d4c12af8238" />
+
+- Next we are going to restart IIS server once more, top right
+
+
+<img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/d8763cdb-2136-46ff-a9ce-3f922ef086bd" />
+
+- Next on the left from IIS Go to sites -> Default -> osTicket then  On the right, click “Browse *:80” then our OSticket webpage should launch
+
+  <img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/ca3f8f62-8741-4e5b-9d95-e9cd82285b48" />
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
 
 - Completed the web-based installation process
 
