@@ -29,6 +29,21 @@ This project was completed to demonstrate practical help desk, cloud infrastruct
 
 ## Demonstration
 
+
+### Step 1 — Create an Azure Account (if one hasn't been made yet)
+Go to the Microsoft cloud platform at: https://portal.azure.com Click Start free or Sign in, Log in with a Microsoft account , (Outlook/Hotmail works)
+
+Complete the following : Identity verification ,Phone verification ,Credit/debit card (for validation — 200$ is avalible as a free tier is offered)
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3b104bcc-0b22-458c-8c05-237e893adfdf" />
+
+
+Once finished, you’ll land in the Azure Portal Dashboard like the image below :
+
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bb9159f3-b917-49f1-9bdc-1a5f43cd0822" />
+
+
 ### Step 1: Azure Virtual Machine Setup
 - Created a Windows virtual machine in Microsoft Azure
 <img width="600" height="362" alt="image" src="https://github.com/user-attachments/assets/40fe924c-5576-43cf-a72f-6c0e2c7c8bde" />
