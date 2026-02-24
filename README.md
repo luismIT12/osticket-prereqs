@@ -29,38 +29,65 @@ This project involved deploying the open-source osTicket Help Desk Ticketing Sys
 ## Demonstration
 
 
-### Step 1 — Create an Azure Account (if one hasn't been made yet)
-Go to the Microsoft cloud platform at: https://portal.azure.com Click Start free or Sign in, Log in with a Microsoft account , (Outlook/Hotmail works)
+### Step 1 — Create an Azure Account (If One Has Not Been Created)
+Navigate to the Azure portal:https://portal.azure.com
 
-Complete the following : Identity verification ,Phone verification ,Credit/debit card (for validation — 200$ is avalible as a free tier is offered)
+Click Start Free or Sign In and log in using a Microsoft account (Outlook/Hotmail works).
+
+Complete:
+
+Identity verification
+
+Phone verification
+
+Credit/debit card verification
+
+Azure provides up to $200 in free credits for new accounts.
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3b104bcc-0b22-458c-8c05-237e893adfdf" />
 
 
-Once finished, you’ll land in the Azure Portal Dashboard like the image below :
+Once completed, you will land on the Azure Portal dashboard.
 
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bb9159f3-b917-49f1-9bdc-1a5f43cd0822" />
 
 
 ### Step 2: Azure Virtual Machine Setup
--- Next we create our Virtual machine for the Osticket, we search on top for virtual machine :
+In the Azure search bar, type Virtual Machines.
+
 
   <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f8b3402b-4cd9-4ebc-b738-969198b4863d" />
 
-- Once it's been selected, we click create on top left
-   - Subscription : you select your own base on account
-  - Resource group : click create a new one name it (EX : Osticket)
-  - virtual name : create one base on your choice (ex: OsticketVM)
-  - Region : select your region
-  - image: select windows 2021 enterpise 
-  - zone : Zone 1
-  - size : at least 2 vcpu!
-  - Create a user name & password for VM
-  - click Next till we get to network section
-  -   Virtual network : one is going to get created
-  -   subnet : defualt 
-  - we click create !
+
+  
+Configure the following:
+
+Subscription: Select your subscription
+
+Resource Group: Create a new one (Example: Osticket-RG)
+
+Virtual Machine Name: Example: OsticketVM
+
+Region: Select your preferred region
+
+Image: Windows 10 Enterprise (or Windows Server if required)
+
+Zone: Zone 1
+
+Size: At least 2 vCPUs recommended
+
+Administrator Username & Password: Create secure credentials
+
+Under Networking:
+
+Virtual Network: Allow Azure to create one
+
+Subnet: Default
+
+Click Review + Create, then Create.
+
+
  
   <img width="520" height="546" alt="image" src="https://github.com/user-attachments/assets/42362bf8-7ad7-401d-ae93-3107bb9166e6" />
 
@@ -69,8 +96,8 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 
 
 
-### Step 3: osTicket Prerequisites Installation
-- Log in to VM the download apps & files required
+### Step 3 — Install osTicket Prerequisites
+- Log into the VM using RDP.
   
   <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/9f31f597-91e5-430b-a833-52931573cf19" />
 
